@@ -1,0 +1,7 @@
+void main() {
+  double celsius = 9;
+ 
+  double fahreinheit = celsius * 9 / 5 + 32;
+ 
+  print("A temperatura em fahreinheit é $fahreinheit");
+}

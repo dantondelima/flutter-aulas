@@ -1,0 +1,8 @@
+void main() {
+  double cotacaoDolar = 5.10;
+  double quantiaDolar = 15;
+ 
+  double quantiaReal = cotacaoDolar * quantiaDolar;
+ 
+  print("A quantia em real é $quantiaReal");
+}

@@ -1,0 +1,32 @@
+import "dart:math";
+void main() {
+  double peso = 108;
+  double altura = 1.75;
+  String sexo = "M";
+    
+  double imc = peso / pow(altura, 2);
+  
+  if(imc < 19 && sexo == "F") {
+    print("Abaixo do peso");
+  }
+  
+  else if(imc > 19 && imc < 24 && sexo == "F") {
+    print("Peso ideal");
+  }
+  
+  else if(imc >= 24 && sexo == "F") {
+    print("Acima do peso");
+  }
+  
+  else if(imc < 20 && sexo == "M") {
+    print("Abaixo do peso");
+  }
+  
+  else if(imc > 20 && imc < 25 && sexo == "M") {
+    print("Peso ideal");
+  }
+  
+  else if(imc >= 25 && sexo == "M") {
+    print("Acima do peso");
+  }
+}

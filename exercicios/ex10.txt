@@ -1,0 +1,26 @@
+void main() {
+  double aceleracao = 2;
+  double velocidadeInicial = 10;
+  double tempoPercurso = 10;
+    
+  double velocidadeFinal = (velocidadeInicial + (aceleracao * tempoPercurso)) * 3.6;
+  String resultado = "";
+  
+  if(velocidadeFinal <= 40){
+    resultado = "Veículo muito lento";
+  }
+  else if(velocidadeFinal > 40 && velocidadeFinal <= 60){
+    resultado = "Velocidade permitida";
+  }
+  else if(velocidadeFinal > 60 && velocidadeFinal <= 80) {
+    resultado = "Velocidade de cruzeiro";
+  }
+  else if(velocidadeFinal > 80 && velocidadeFinal <= 120) {
+    resultado = "Veículo rápido";
+  }
+  else {
+    resultado = "Veículo muito rápido";
+  }
+  print(resultado);
+}
+  

@@ -1,0 +1,8 @@
+void main() {
+  double base = 9;
+  double altura = 3;
+ 
+  double area = base * altura;
+ 
+  print("A área do retangulo é $area");
+}

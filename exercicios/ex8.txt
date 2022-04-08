@@ -1,0 +1,22 @@
+void main() {
+  double l1 = 33;
+  double l2 = 34;
+  double l3 = 35;
+ 
+  double soma = l1 + l2; 
+  
+  if(l1 + l2 > l3 && l1 + l3 > l2 && l3 + l2 > l1) {
+    if(l1 != l2 && l1 != l3 && l2 != l3) {
+      print("Este triângulo é escaleno.");  
+    }
+    else if(l1 == l2 && l2 == l3) {
+      print("Este triângulo é equilátero.");
+    }
+    else {
+      print("Este triângulo é isósceles.");
+    }
+  }
+  else {
+    print("Isso não é um triângulo.");
+  }
+}

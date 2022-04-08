@@ -1,0 +1,8 @@
+void main() {
+  var produtos = [5, 56.10, 35.10, 15.10, 85.10];
+  double pagamento = 300;
+  for(int i = 0; i < 5; i++){
+     pagamento -= produtos[i];
+  }
+  print("O troco é $pagamento");
+}
